@@ -1,0 +1,13 @@
+{
+    "short_name": "tempReact",
+    "name": "Vite + React",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "type": "image/svg",
+            "sizes": "192x192"
+        }
+    ],
+    "theme_color": "#242424",
+    "display": "fullscreen"
+}
