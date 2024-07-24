@@ -14,8 +14,8 @@ function PgPost() {
         posts.length > 0 &&
         <>
           <h2>Sono un Post: {idPost}</h2>
-          <h3>title: {posts[idPost].title}</h3>
-          <p>Description: {posts[idPost].body}</p>
+          <h3>title: {posts[idPost - 1].title}</h3>
+          <p>Description: {posts[idPost - 1].body}</p>
         </>
       }
     </main>
