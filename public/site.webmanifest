@@ -3,7 +3,7 @@
     "name": "Vite + React",
     "icons": [
         {
-            "src": "/react.svg",
+            "src": "./react.svg",
             "type": "image/svg",
             "sizes": "192x192"
         }
