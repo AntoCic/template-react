@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import { btn } from '../GeneralCmpTailwind';
 
 // ASSETS
-import reactLogo from '../assets/img/react.svg'
+import reactLogo from '/react.svg'
 import reduxLogo from '../assets/img/redux.svg'
 import tailwindLogo from '../assets/img/tailwind.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '../assets/img/vite.svg'
 // STYLE
 import '../style/Home.css'
 
