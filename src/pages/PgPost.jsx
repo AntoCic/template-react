@@ -10,7 +10,14 @@ function PgPost() {
   const posts = useSelector((state) => state.post.value);
   return (
     <main className='container mx-auto px-4'>
-      <h2>Sono un Post {posts.length > 0 && posts[idPost].title}</h2>
+      {
+        posts.length > 0 &&
+        <>
+          <h2>Sono un Post: {idPost}</h2>
+          <h3>title: {posts[idPost].title}</h3>
+          <p>Description: {posts[idPost].body}</p>
+        </>
+      }
     </main>
   )
 }
